@@ -58,7 +58,7 @@ include 'common.php';
         <div class="container">
         
             <table class="table table-striped table-bordered">
-                <thead class="thead-dark">
+                <thead style="background-color:grey">
                 
                 <th>Task</th>
                 <th>Deadline</th>
@@ -86,12 +86,15 @@ include 'common.php';
                 </tbody>
             </table>
             <br>
-            <div style="background-color:yellowgreen;opacity:0.8;  padding:10px ;">
+            
+        </div>
+        
+        <div style="background-color:yellowgreen;opacity:0.8;  padding:10px ;">
             <center>
                 <h4>Add more <a href="index.php" > <strong>TODO</strong></a>.</h4>
             </center>
             </div>
-        </div>
+        
         
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
                 <!-- Latest compiled and minified JavaScript -->
